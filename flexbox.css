@@ -1,0 +1,45 @@
+.flex
+{
+    
+    height: 600px;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(194, 138, 35);
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+.flex div {
+    width: 12%;
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.gray{
+    background-color: gray;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+.red{
+    background-color: red;
+}
+.brown{
+
+background-color: brown;
+
+}
