@@ -1,3 +1,3 @@
 # flex-grid-repo
 
-## I have created flexbox and grid layouts modules using css.
+## I have created flex and grid layouts modules using css.
