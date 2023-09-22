@@ -1,0 +1,105 @@
+.items
+{
+    display: grid;
+    grid-template-columns:repeat(8,auto);
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.item1,
+.item5,
+.item9
+
+{
+    
+        background-color: rgb(241, 241, 241);
+        grid-column: 1/3;
+
+}
+.item2,
+.item6,
+.item10
+{
+    
+        background-color: rgb(241, 241, 241);
+        grid-column: 3/5;
+
+}
+.item3,
+.item7,
+.item11
+{
+        
+        background-color: rgb(241, 241, 241);;
+        grid-column: 5/7;
+
+}
+.item4,
+.item8,
+.item12
+{
+    
+        background-color: rgb(241, 241, 241);;
+        grid-column: 7/9;
+
+}
+
+.items .item2,
+.items .item3,
+.items .item6,
+.items .item7,
+.items .item9,
+.items .item12
+{
+        padding: 8px;
+        display: grid;
+        grid-template-columns:repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+        column-gap: 5px;
+        row-gap: 5px;
+        
+}
+
+.items .item2 .subitem1,
+.items .item3 .subitem1,
+.items .item9 .subitem1,
+.items .item12 .subitem1,
+.items .item2 .subitem3,
+.items .item3 .subitem3,
+.items .item9 .subitem3,
+.items .item12 .subitem3
+{
+        background-color: rgb(182, 176, 176);
+        grid-column: 1/2;
+
+
+}
+.items .item2 .subitem2,
+.items .item3 .subitem2,
+.items .item9 .subitem2,
+.items .item12 .subitem2,
+.items .item2 .subitem4,
+.items .item3 .subitem4,
+.items .item9 .subitem4,
+.items .item12 .subitem4
+{
+        background-color: rgb(182, 176, 176);
+        grid-column: 2/3;
+}
+.items .item6 .subitem1,
+.items .item6 .subitem2
+{
+        background-color: rgb(182, 176, 176);
+        grid-column: 1/3;
+
+}
+.items .item7 .subitem1,
+.items .item7 .subitem2
+{
+        background-color: rgb(182, 176, 176);
+        grid-row: 1/3;
+
+}
+
+
